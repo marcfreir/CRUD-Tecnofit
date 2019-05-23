@@ -1,0 +1,246 @@
+body, html {
+    width: auto;
+    height: auto;
+    font-family: 'Asap' , sans-serif;
+    padding: 10px;
+    
+  }
+  /*
+  .listagem {
+    width: 300px;
+  }
+  .linha {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  
+  }
+  input[type=text] {
+    width: 200px;
+    height: 25px;
+    display: inline-block;
+    float: right;
+  }
+  
+  select[class=status] {
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+    float: right;
+  }
+  
+  input[type=submit] {
+    display: inline-block;
+    float: right;
+  }
+  
+  .horizontal-rule {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  */
+  
+  /*
+  .grupo {
+    padding-top: 15px;
+    display: grid;
+  }
+  
+  .status {
+    display: inline-block;
+    margin-left: 50px;
+  }
+  .nome {*/
+    /*width: 550px;*/
+    /*
+    display: table-cell;
+    padding-right: 20px;
+  }*/
+  /*
+  input[type=text] {
+    width: 250px;
+    height: 25px;
+    display: table-cell;
+    float: right;
+    margin-right: 65%;
+  }
+  
+  select[class=status] {
+    width: 255px;
+    height: 30px;
+    display: table-row;
+    float: right;
+    margin-right: auto;
+  
+  }
+  
+  button[type=submit] {
+    height: 30px;
+    width: 100px;
+    margin-right: 10%;
+    display: inline;
+    float: right;
+  }
+  */
+  
+  h3 {
+    padding: 10px;
+  }
+
+  .menu-grid {
+  
+    display: grid;
+    grid-template-columns: 70% auto;
+    /*grid-auto-columns: auto;*/
+    padding: 20px;
+    /*justify-items: right;*/
+    align-items: center;
+    
+  }
+  .grid-items-buttons {
+    justify-items: stretch;
+    margin-left: 0px;
+  }
+
+  .logo {
+    font-weight: bolder;
+  }
+  
+  .listagem-grid {
+    display: grid;
+    grid-template-columns: 20% 35% 15% 15% 15%;
+    padding: 10px;
+    align-items: center;
+  }
+  
+  .grid-items #nome {
+  
+    font-size: 16px;
+    display: flex;
+  }
+  
+  input[type=text] {
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #00a0e5;
+    border-style: solid;
+      
+  }
+
+  hr {
+    color: #00a0e5;
+    border: none;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  input[type=date] {
+    width: 250px;
+    height: 25px;
+  
+  }
+  
+  input[id=btneditar] {
+    height: 40px;
+    width: 70px;
+      
+  }
+  
+  input[id=btnexcluir] {
+    height: 40px;
+    width: 70px;
+      
+  }
+
+  input[type=password] {
+    width: 250px;
+    height: 25px;
+  
+  }
+  
+  select[class=status] {
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #00a0e5;
+    border-style: solid;
+  
+  
+  }
+  
+  button[type=submit] {
+    height: 40px;
+    width: 120px;
+    background-color: #2d3f82;
+    color: #ffffff;
+    font-size: 16px;
+    
+    border-width: 1px;
+    border-radius: 15px;
+    border-style: solid;
+  
+  }
+  button[type=submit]:hover {
+    /*height: 42px;*/
+    width: 122px;
+    background-color: #0099cc;
+    color: #ffffff;
+    border-radius: 5px;
+  
+  }
+  
+  button[type=button] {
+    height: 40px;
+    width: 120px;
+    background-color: #be79fd;
+    color: #ffffff;
+    font-size: 16px;
+    
+    border-width: 1px;
+    border-radius: 15px;
+    border-style: solid;
+  }
+
+  button[type=button]:hover {
+    /*height: 42px;*/
+    width: 122px;
+    background-color: #730073;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+
+  #btnpedido {
+    background-color: #adadad;
+  }
+
+  #btnbuscar {
+    background-color: #208eed;
+  }
+  
+  .horizontal-rule {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border-color: #730073;
+  }
+  
+  td, th {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .center {
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
